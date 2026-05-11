@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ================= HERO SECTION ================= */
+.hero-section {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.welcome-text {
+  color: green;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.sale-text {
+  font-size: 20px;
+}
+
+.sale-text span {
+  color: orange;
+  font-weight: bold;
+}
+
+.sub-text {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shop-btn:hover {
+  background-color: darkgreen;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ================= PRODUCT CARD ================= */
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.price-tag {
+  font-size: 16px;
+}
+
+.old-price {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.sale-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: normal;
+  padding: 5px 10px;
+}
+
+/* ================= CATEGORY CARD ================= */
+.category-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+/* ================= BANNER SECTION ================= */
+.banner-card {
+  height: 250px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-1 {
+  background-image: url("/images/background1.png");
+}
+
+.banner-2 {
+  background-image: url("/images/background2.png");
+}
+
+.banner-3 {
+  background-image: url("/images/background3.png");
+}
+
+.banner-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner-card p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.banner-card .btn {
+  width: 120px;
+  font-weight: bold;
+}
+
+/* ================= HOT DEALS ================= */
+.hot-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* ================= MAIN BANNER ================= */
+.banner {
+  background-color: #0f172a;
+  padding: 40px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.orange {
+  color: #ff8c1a;
+}
+
+.latest-news-section .date-box {
+  position: absolute;
+  bottom: -15px;
+  left: 15px;
+  background: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.testimonial-card {
+  position: relative;
+  min-height: 250px;
+}
+
+.quote-icon {
+  font-size: 40px;
+  color: #7cd47a;
+  margin-bottom: 15px;
+}
+
+.user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.stars {
+  color: orange;
+  font-size: 14px;
+}
+
+.testimonial-section h2 {
+  font-family: Arial, sans-serif;
+}
+
+/* NEWSLETTER */
+.newsletter-section {
+  background-color: #e8f5e9;
+}
+
+.newsletter-section input {
+  min-width: 250px;
+  border-radius: 20px;
+}
+
+.newsletter-section button {
+  border-radius: 20px;
+}
+
+/* FOOTER */
+.footer-section {
+  background-color: #0b2e2b;
+}
+
+.footer-section h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.footer-section ul li:hover {
+  color: #28a745;
+}
+
+.logo {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.footer-logo {
+  width: 50px;   /* medium size */
+  height: auto;
+}
+
+.logo-text {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 22px;
+}
