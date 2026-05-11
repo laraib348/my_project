@@ -29,7 +29,7 @@ function App() {
 
             {/* RIGHT SIDE IMAGE */}
             <div className="col-md-6 text-center">
-              <img src=".\public\images\Image (6).png" alt="Hero" className='hero-img' />
+              <img src="\images\Image (6).png" alt="Hero" className='hero-img' />
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ function App() {
           <div className="col-md-6 col-lg-3">
             <div className="card h-100 product-card">
               {/* <span className="badge bg-danger sale-badge">Sale 50%</span> */}
-              <img src=".\public\images\apple.png" className="card-img-top p-3" alt="Apple" />
+              <img src="\images\apple.png" className="card-img-top p-3" alt="Apple" />
               <div className="card-body">
                 <p className="product-name mb-0">Green Apple</p>
                 <div className="price-tag fw-bold">$14.99</div>
@@ -59,7 +59,7 @@ function App() {
 
           <div className="col-md-6 col-lg-3">
             <div className="card h-100 product-card">
-              <img src=".\public\images\cabage.png" className="card-img-top p-3" alt="Malta" />
+              <img src="\images\cabage.png" className="card-img-top p-3" alt="Malta" />
               <div className="card-body">
                 <p className="product-name mb-0">Chinese Cabage</p>
                 <div className="price-tag fw-bold">$20.00</div>
@@ -71,7 +71,7 @@ function App() {
 
           <div className="col-md-6 col-lg-3">
             <div className="card h-100 product-card active-card">
-              <img src=".\public\images\chili.png" className="card-img-top p-3" alt="Cabbage" />
+              <img src="\images\chili.png" className="card-img-top p-3" alt="Cabbage" />
               <div className="card-body">
                 <p className="product-name mb-0 text-success">Green Chili</p>
                 <div className="price-tag fw-bold">$12.00</div>
@@ -83,7 +83,7 @@ function App() {
 
           <div className="col-md-6 col-lg-3">
             <div className="card h-100 product-card">
-              <img src=".\public\images\Image (3).png" className="card-img-top p-3" alt="Lettuce" />
+              <img src="\images\Image (3).png" className="card-img-top p-3" alt="Lettuce" />
               <div className="card-body">
                 <p className="product-name mb-0">Green Lettuce</p>
                 <div className="price-tag fw-bold">$9.00</div>
@@ -98,7 +98,7 @@ function App() {
         <div className="row g-4">
           <div className="col-md-6 col-lg-3">
             <div className="card h-100 product-card">
-              <img src=".\public\images\Image (4).png" className="card-img-top p-3" alt="Red Tomatoes" />
+              <img src="\images\Image (4).png" className="card-img-top p-3" alt="Red Tomatoes" />
               <div className="card-body">
                 <p className="product-name mb-0">Capsicum</p>
                 <div className="price-tag fw-bold">$34.00</div>
@@ -110,7 +110,7 @@ function App() {
 
           <div className="col-md-6 col-lg-3">
             <div className="card h-100 product-card">
-              <img src=".\public\images\Image (5).png" className="card-img-top p-3" />
+              <img src="\images\Image (5).png" className="card-img-top p-3" />
               <div className="card-body">
                 <p className="product-name mb-0">Corn</p>
                 <div className="price-tag fw-bold">$20.00</div>
@@ -122,7 +122,7 @@ function App() {
 
           <div className="col-md-6 col-lg-3">
             <div className="card h-100 product-card">
-              <img src=".\public\images\Image (6).png" className="card-img-top p-3" />
+              <img src="\images\Image (6).png" className="card-img-top p-3" />
               <div className="card-body">
                 <p className="product-name mb-0">Mix Vegetable</p>
                 <div className="price-tag fw-bold">$20.00</div>
@@ -134,7 +134,7 @@ function App() {
 
           <div className="col-md-6 col-lg-3">
             <div className="card h-100 product-card">
-              <img src=".\public\images\Product Image.png" className="card-img-top p-3" />
+              <img src="\images\Product Image.png" className="card-img-top p-3" />
               <div className="card-body">
                 <p className="product-name mb-0">Cabage</p>
                 <div className="price-tag fw-bold">$12.00</div>
@@ -463,7 +463,7 @@ function App() {
               <div className="col-md-4">
                 <div className="card shadow-sm border-0">
                   <div className="position-relative">
-                    <img src=".\public\images\cardimage7.png" className="card-img-top" />
+                    <img src="\images\cardimage7.png" className="card-img-top" />
 
                     <div className="date-box">
                       <div>18</div>
@@ -487,7 +487,7 @@ function App() {
               <div className="col-md-4">
                 <div className="card shadow-sm border-0">
                   <div className="position-relative">
-                    <img src=".\public\images\cardimage8.png" className="card-img-top" />
+                    <img src="\images\cardimage8.png" className="card-img-top" />
 
                     <div className="date-box">
                       <div>29</div>
@@ -511,7 +511,7 @@ function App() {
               <div className="col-md-4">
                 <div className="card shadow-sm border-0">
                   <div className="position-relative">
-                    <img src=".\public\images\cardimage9.png" className="card-img-top" />
+                    <img src="\images\cardimage9.png" className="card-img-top" />
 
                     <div className="date-box">
                       <div>21</div>
@@ -547,7 +547,7 @@ function App() {
                   </p>
 
                   <div className="d-flex align-items-center mt-3">
-                    <img src=".\public\images\user1.png" className="user-img" />
+                    <img src="\images\user1.png" className="user-img" />
                     <div className="ms-3">
                       <h6 className="mb-0">Robert Fox</h6>
                       <div className="stars">★★★★★</div>
@@ -566,7 +566,7 @@ function App() {
                   </p>
 
                   <div className="d-flex align-items-center mt-3">
-                    <img src=".\public\images\user2.png" className="user-img" />
+                    <img src="\images\user2.png" className="user-img" />
                     <div className="ms-3">
                       <h6 className="mb-0">Dianne Russell</h6>
                       <div className="stars">★★★★★</div>
@@ -585,7 +585,7 @@ function App() {
                   </p>
 
                   <div className="d-flex align-items-center mt-3">
-                    <img src=".\public\images\user3.png" className="user-img" />
+                    <img src="\images\user3.png" className="user-img" />
                     <div className="ms-3">
                       <h6 className="mb-0">Eleanor Pena</h6>
                       <div className="stars">★★★★★</div>
@@ -621,7 +621,7 @@ function App() {
                 {/* LEFT SIDE */}
                 <div className="col-md-3 mb-4">
                   <div className="d-flex align-items-center mb-3">
-                    <img src=".\public\images\logo (2).png" alt="logo" className='footer-logo me-2' />
+                    <img src="\images\logo (2).png" alt="logo" className='footer-logo me-2' />
                     <h4 className="logo">Ecobazar</h4>
                   </div>
 
